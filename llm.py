@@ -26,7 +26,7 @@ client = OpenAI(
     base_url="https://api.groq.com/openai/v1"
 )
 
-MODEL = st.secrets.get("MODEL", "llama-3.1-70b-versatile")
+MODEL = st.secrets.get("MODEL", "llama-3.3-70b-versatile")
 
 _REWRITE_MARKERS = ("here is a rewritten", "improved version:")
 
